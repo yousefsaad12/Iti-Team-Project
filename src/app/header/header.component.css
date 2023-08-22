@@ -1,0 +1,22 @@
+
+.navbar-brand{
+    font-size: 1.8em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color:#ED474A
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+.nav-item{
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color:#ED474A
+}
+.nav-item:hover{
+    color: white;
+}

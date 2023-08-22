@@ -1,0 +1,36 @@
+.bg-image{
+   
+    min-height:100vh;
+    background-image: url(https://img.freepik.com/free-photo/rows-red-seats-theater_53876-64710.jpg?w=996&t=st=1690563546~exp=1690564146~hmac=aaeaf0b426b48c5f6ea43c4657354beb3f2824c00bfbbfbd7f092c54119538b2);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 250px 0 200px;
+}
+h2{
+    font-size: 2.7em;
+    color:whitesmoke;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p{
+    font-size: 1.2em;
+    color:whitesmoke;
+    text-transform: capitalize;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.btn{
+    font-size: 1.2em;
+    font-weight: 100;
+    letter-spacing: 1px;
+    transition: 0.7s ease;
+}
+
+.btn:hover{
+    color: #ED474A;
+    transform: scale(1.1);
+}

@@ -1,0 +1,35 @@
+
+<app-search-bar></app-search-bar>
+
+<div class="container Montserrat">
+    
+    <div class="row justify-content-center">
+           <div class="card col-md-4 rounded-5 ">
+   
+               <img class="card-img-top rounded-top-5" style="height: 18rem; background-size: cover;"  alt="Card image cap">
+
+               <div class="card-body">
+                   <h5 class="card-title text-danger "></h5>
+                   <p class="card-text"></p>
+                   <span class="movie_info"></span>
+                
+               </div>
+              
+               <button type="button" class="btn btn-outline-danger rounded-5" ><i class="fa-solid fa-cart-shopping"></i> Add to cart </button>
+               <button   type="button" class="btn btn-outline-danger rounded-5"  [routerLink]="['/series_Details',0]">Watch Now</button>
+
+           </div>
+
+       </div>
+</div>
+
+<div class="container mt-5 ">
+    <mat-paginator class="col-12" length="100"
+              [pageSize]="10"
+              [pageSizeOptions]="[5, 10, 25, 100]"
+              aria-label="Select page">
+    </mat-paginator>
+
+</div>
+
+<app-footer></app-footer>
